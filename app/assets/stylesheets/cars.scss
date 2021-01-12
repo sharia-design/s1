@@ -6,4 +6,12 @@
 }
 table {
     font-size: 2.2rem;
+    box-shadow: 0px 11px 22px rgba($color: #272522, $alpha: .2);
+    padding: 1.4rem;
+    border-radius: 4px;
+    transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+table:hover {
+    background-color: #fff;
+    transform: scale(1.1);
 }
